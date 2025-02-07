@@ -1,6 +1,6 @@
 {
   "name": "vscode-url",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to create urls for the `vscode-remote://` URI scheme.",
   "keywords": [
     "vscode",
@@ -43,6 +43,6 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack .",
-    "local-release": "npm run ci && changeset version && changeset publish"
+    "release": "npm run ci && changeset version && changeset publish"
   }
 }
